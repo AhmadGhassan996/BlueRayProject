@@ -1,0 +1,20 @@
+PODS:
+  - Kingfisher (7.10.0)
+  - ShimmerSwift (2.1.1)
+
+DEPENDENCIES:
+  - Kingfisher (~> 7.0)
+  - ShimmerSwift
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - ShimmerSwift
+
+SPEC CHECKSUMS:
+  Kingfisher: a18f05d3b6d37d8650ee4a3e61d57a28fc6207f6
+  ShimmerSwift: f7ed2daf9c246de8299dfd9e12c6ab465cba9842
+
+PODFILE CHECKSUM: bf1960eb0d9fb76f0be10683e87f7bd85bbf00d1
+
+COCOAPODS: 1.14.2

@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B5C2E952B2D1F5100B6B2EE /* ShimmerEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C2E942B2D1F5100B6B2EE /* ShimmerEffect.swift */; };
+		8B5C2E9D2B2D275300B6B2EE /* ShimmerEffect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B5C2E9C2B2D275300B6B2EE /* ShimmerEffect.xib */; };
+		8B5C2EA02B2D4A1800B6B2EE /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C2E9F2B2D4A1800B6B2EE /* ApiCall.swift */; };
 		8B9346BE2B2C79E00073FBC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9346BD2B2C79E00073FBC3 /* AppDelegate.swift */; };
 		8B9346C02B2C79E00073FBC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9346BF2B2C79E00073FBC3 /* SceneDelegate.swift */; };
-		8B9346C22B2C79E00073FBC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9346C12B2C79E00073FBC3 /* ViewController.swift */; };
+		8B9346C22B2C79E00073FBC3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9346C12B2C79E00073FBC3 /* MainViewController.swift */; };
 		8B9346C52B2C79E00073FBC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9346C32B2C79E00073FBC3 /* Main.storyboard */; };
 		8B9346C72B2C79E20073FBC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9346C62B2C79E20073FBC3 /* Assets.xcassets */; };
 		8B9346CA2B2C79E20073FBC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9346C82B2C79E20073FBC3 /* LaunchScreen.storyboard */; };
+		8B9346D82B2C7B630073FBC3 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9346D62B2C7B630073FBC3 /* DescriptionCell.swift */; };
+		8B9346D92B2C7B630073FBC3 /* DescriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B9346D72B2C7B630073FBC3 /* DescriptionCell.xib */; };
+		8B9346DB2B2C7D330073FBC3 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9346DA2B2C7D330073FBC3 /* constants.swift */; };
+		8B9346DE2B2C7E1D0073FBC3 /* RadiatorImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9346DC2B2C7E1D0073FBC3 /* RadiatorImageCell.swift */; };
+		8B9346DF2B2C7E1D0073FBC3 /* RadiatorImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B9346DD2B2C7E1D0073FBC3 /* RadiatorImageCell.xib */; };
+		8B9346E32B2C84600073FBC3 /* APIRadiatorUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9346E22B2C84600073FBC3 /* APIRadiatorUseCase.swift */; };
+		8B9346E62B309A9D0073FBC3 /* RadiatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9346E52B309A9D0073FBC3 /* RadiatorModel.swift */; };
+		8B9346ED2B30C9FA0073FBC3 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9346EC2B30C9FA0073FBC3 /* Extension+String.swift */; };
+		BB1108A384700C1FBCA9FA69 /* Pods_Blue_Ray_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBA70C3EA33081FAFDF052E /* Pods_Blue_Ray_Project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E39BFFA3D1634BED24D6F26 /* Pods-Blue Ray Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blue Ray Project.debug.xcconfig"; path = "Target Support Files/Pods-Blue Ray Project/Pods-Blue Ray Project.debug.xcconfig"; sourceTree = "<group>"; };
+		4427D94DB899A8A67E519425 /* Pods-Blue Ray Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blue Ray Project.release.xcconfig"; path = "Target Support Files/Pods-Blue Ray Project/Pods-Blue Ray Project.release.xcconfig"; sourceTree = "<group>"; };
+		8B5C2E942B2D1F5100B6B2EE /* ShimmerEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffect.swift; sourceTree = "<group>"; };
+		8B5C2E9C2B2D275300B6B2EE /* ShimmerEffect.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShimmerEffect.xib; sourceTree = "<group>"; };
+		8B5C2E9F2B2D4A1800B6B2EE /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
 		8B9346BA2B2C79E00073FBC3 /* Blue Ray Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blue Ray Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9346BD2B2C79E00073FBC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B9346BF2B2C79E00073FBC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B9346C12B2C79E00073FBC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B9346C12B2C79E00073FBC3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8B9346C42B2C79E00073FBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B9346C62B2C79E20073FBC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B9346C92B2C79E20073FBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B9346CB2B2C79E20073FBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9346D62B2C7B630073FBC3 /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
+		8B9346D72B2C7B630073FBC3 /* DescriptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionCell.xib; sourceTree = "<group>"; };
+		8B9346DA2B2C7D330073FBC3 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		8B9346DC2B2C7E1D0073FBC3 /* RadiatorImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiatorImageCell.swift; sourceTree = "<group>"; };
+		8B9346DD2B2C7E1D0073FBC3 /* RadiatorImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadiatorImageCell.xib; sourceTree = "<group>"; };
+		8B9346E22B2C84600073FBC3 /* APIRadiatorUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRadiatorUseCase.swift; sourceTree = "<group>"; };
+		8B9346E52B309A9D0073FBC3 /* RadiatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiatorModel.swift; sourceTree = "<group>"; };
+		8B9346EC2B30C9FA0073FBC3 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		AFBA70C3EA33081FAFDF052E /* Pods_Blue_Ray_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blue_Ray_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB1108A384700C1FBCA9FA69 /* Pods_Blue_Ray_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31251C24F816CA5CBEE5CBE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFBA70C3EA33081FAFDF052E /* Pods_Blue_Ray_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43B67243090C06A60E217C3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E39BFFA3D1634BED24D6F26 /* Pods-Blue Ray Project.debug.xcconfig */,
+				4427D94DB899A8A67E519425 /* Pods-Blue Ray Project.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B5C2E8A2B2D0A0200B6B2EE /* shimmerEffect */ = {
+			isa = PBXGroup;
+			children = (
+				8B5C2E942B2D1F5100B6B2EE /* ShimmerEffect.swift */,
+				8B5C2E9C2B2D275300B6B2EE /* ShimmerEffect.xib */,
+			);
+			path = shimmerEffect;
+			sourceTree = "<group>";
+		};
+		8B5C2E9E2B2D49D300B6B2EE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8B5C2E9F2B2D4A1800B6B2EE /* ApiCall.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		8B9346B12B2C79E00073FBC3 = {
 			isa = PBXGroup;
 			children = (
 				8B9346BC2B2C79E00073FBC3 /* Blue Ray Project */,
 				8B9346BB2B2C79E00073FBC3 /* Products */,
+				43B67243090C06A60E217C3E /* Pods */,
+				31251C24F816CA5CBEE5CBE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +119,97 @@
 		8B9346BC2B2C79E00073FBC3 /* Blue Ray Project */ = {
 			isa = PBXGroup;
 			children = (
+				8B9346EB2B30C9A60073FBC3 /* Extension */,
+				8B9346E92B30C8870073FBC3 /* Scenes */,
+				8B5C2E9E2B2D49D300B6B2EE /* Services */,
 				8B9346BD2B2C79E00073FBC3 /* AppDelegate.swift */,
 				8B9346BF2B2C79E00073FBC3 /* SceneDelegate.swift */,
-				8B9346C12B2C79E00073FBC3 /* ViewController.swift */,
-				8B9346C32B2C79E00073FBC3 /* Main.storyboard */,
+				8B9346DA2B2C7D330073FBC3 /* constants.swift */,
 				8B9346C62B2C79E20073FBC3 /* Assets.xcassets */,
 				8B9346C82B2C79E20073FBC3 /* LaunchScreen.storyboard */,
 				8B9346CB2B2C79E20073FBC3 /* Info.plist */,
 			);
 			path = "Blue Ray Project";
+			sourceTree = "<group>";
+		};
+		8B9346D12B2C7A550073FBC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B9346C32B2C79E00073FBC3 /* Main.storyboard */,
+				8B9346D42B2C7AC70073FBC3 /* radiatorCell */,
+				8B9346D32B2C7AA80073FBC3 /* descriptionCell */,
+				8B5C2E8A2B2D0A0200B6B2EE /* shimmerEffect */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B9346D32B2C7AA80073FBC3 /* descriptionCell */ = {
+			isa = PBXGroup;
+			children = (
+				8B9346D62B2C7B630073FBC3 /* DescriptionCell.swift */,
+				8B9346D72B2C7B630073FBC3 /* DescriptionCell.xib */,
+			);
+			path = descriptionCell;
+			sourceTree = "<group>";
+		};
+		8B9346D42B2C7AC70073FBC3 /* radiatorCell */ = {
+			isa = PBXGroup;
+			children = (
+				8B9346DC2B2C7E1D0073FBC3 /* RadiatorImageCell.swift */,
+				8B9346DD2B2C7E1D0073FBC3 /* RadiatorImageCell.xib */,
+			);
+			path = radiatorCell;
+			sourceTree = "<group>";
+		};
+		8B9346E42B309A5D0073FBC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B9346E52B309A9D0073FBC3 /* RadiatorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B9346E72B30BB270073FBC3 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B9346C12B2C79E00073FBC3 /* MainViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		8B9346E82B30BB410073FBC3 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				8B9346E22B2C84600073FBC3 /* APIRadiatorUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		8B9346E92B30C8870073FBC3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8B9346EA2B30C8BC0073FBC3 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8B9346EA2B30C8BC0073FBC3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8B9346E82B30BB410073FBC3 /* UseCase */,
+				8B9346E72B30BB270073FBC3 /* controllers */,
+				8B9346D12B2C7A550073FBC3 /* View */,
+				8B9346E42B309A5D0073FBC3 /* Models */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8B9346EB2B30C9A60073FBC3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8B9346EC2B30C9FA0073FBC3 /* Extension+String.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B9346CE2B2C79E20073FBC3 /* Build configuration list for PBXNativeTarget "Blue Ray Project" */;
 			buildPhases = (
+				AAF8DC92846BA6F1DBA0EE1A /* [CP] Check Pods Manifest.lock */,
 				8B9346B62B2C79E00073FBC3 /* Sources */,
 				8B9346B72B2C79E00073FBC3 /* Frameworks */,
 				8B9346B82B2C79E00073FBC3 /* Resources */,
+				F998C0ABAD0268C8EA34FF8A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +272,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9346DF2B2C7E1D0073FBC3 /* RadiatorImageCell.xib in Resources */,
+				8B9346D92B2C7B630073FBC3 /* DescriptionCell.xib in Resources */,
+				8B5C2E9D2B2D275300B6B2EE /* ShimmerEffect.xib in Resources */,
 				8B9346CA2B2C79E20073FBC3 /* LaunchScreen.storyboard in Resources */,
 				8B9346C72B2C79E20073FBC3 /* Assets.xcassets in Resources */,
 				8B9346C52B2C79E00073FBC3 /* Main.storyboard in Resources */,
@@ -133,14 +283,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AAF8DC92846BA6F1DBA0EE1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blue Ray Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F998C0ABAD0268C8EA34FF8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Blue Ray Project/Pods-Blue Ray Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Blue Ray Project/Pods-Blue Ray Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Blue Ray Project/Pods-Blue Ray Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B9346B62B2C79E00073FBC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B9346C22B2C79E00073FBC3 /* ViewController.swift in Sources */,
+				8B5C2EA02B2D4A1800B6B2EE /* ApiCall.swift in Sources */,
+				8B9346D82B2C7B630073FBC3 /* DescriptionCell.swift in Sources */,
+				8B9346C22B2C79E00073FBC3 /* MainViewController.swift in Sources */,
 				8B9346BE2B2C79E00073FBC3 /* AppDelegate.swift in Sources */,
+				8B9346DB2B2C7D330073FBC3 /* constants.swift in Sources */,
 				8B9346C02B2C79E00073FBC3 /* SceneDelegate.swift in Sources */,
+				8B9346E62B309A9D0073FBC3 /* RadiatorModel.swift in Sources */,
+				8B9346ED2B30C9FA0073FBC3 /* Extension+String.swift in Sources */,
+				8B9346DE2B2C7E1D0073FBC3 /* RadiatorImageCell.swift in Sources */,
+				8B5C2E952B2D1F5100B6B2EE /* ShimmerEffect.swift in Sources */,
+				8B9346E32B2C84600073FBC3 /* APIRadiatorUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +482,7 @@
 		};
 		8B9346CF2B2C79E20073FBC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E39BFFA3D1634BED24D6F26 /* Pods-Blue Ray Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +496,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +512,7 @@
 		};
 		8B9346D02B2C79E20073FBC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4427D94DB899A8A67E519425 /* Pods-Blue Ray Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +526,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

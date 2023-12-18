@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="DescriptionCell" id="gTV-IL-0wX" customClass="DescriptionCell" customModule="Blue_Ray_Project" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="349"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="336" height="349"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vzO-to-joN">
+                        <rect key="frame" x="0.0" y="0.0" width="336" height="349"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGY-BI-pVs">
+                                <rect key="frame" x="20" y="80" width="296" height="239"/>
+                                <string key="text">Our Radiators are the outcome, not only of high quality raw material,
+but also a team of dedicated employees with technical skills
+accumulated from over than 20 ears of producing radiators.
+Contact us for more information about our wide range of radiators for
+Alices</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Automotive Radiators" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5O8-az-xNa">
+                                <rect key="frame" x="0.0" y="0.0" width="336" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.45983333329999998" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.0" green="0.45983333329999998" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="nKw-Yk-sca"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5O8-az-xNa" firstAttribute="top" secondItem="vzO-to-joN" secondAttribute="top" id="A14-PO-AFp"/>
+                            <constraint firstItem="yGY-BI-pVs" firstAttribute="leading" secondItem="vzO-to-joN" secondAttribute="leading" constant="20" id="Hi7-Zv-2Ah"/>
+                            <constraint firstAttribute="trailing" secondItem="5O8-az-xNa" secondAttribute="trailing" id="RqW-ls-6ut"/>
+                            <constraint firstItem="5O8-az-xNa" firstAttribute="leading" secondItem="vzO-to-joN" secondAttribute="leading" id="ViW-m6-RlI"/>
+                            <constraint firstAttribute="trailing" secondItem="yGY-BI-pVs" secondAttribute="trailing" constant="20" id="Xic-9j-g3s"/>
+                            <constraint firstAttribute="bottom" secondItem="yGY-BI-pVs" secondAttribute="bottom" constant="30" id="bej-gN-jcc"/>
+                            <constraint firstItem="yGY-BI-pVs" firstAttribute="top" secondItem="5O8-az-xNa" secondAttribute="bottom" constant="30" id="zfn-W3-axg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="vzO-to-joN" secondAttribute="trailing" id="7Hc-pg-g0c"/>
+                <constraint firstItem="vzO-to-joN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7fo-Mw-dqc"/>
+                <constraint firstAttribute="bottom" secondItem="vzO-to-joN" secondAttribute="bottom" id="kVx-Hj-Oyj"/>
+                <constraint firstItem="vzO-to-joN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zxb-XP-uvI"/>
+            </constraints>
+            <size key="customSize" width="336" height="349"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="yGY-BI-pVs" id="Eg7-3n-mSF"/>
+                <outlet property="titleLabel" destination="5O8-az-xNa" id="gya-ld-Iu3"/>
+            </connections>
+            <point key="canvasLocation" x="264.12213740458014" y="49.647887323943664"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Blue Ray Project
 //
-//  Created by mgsulaimanCom on 15/12/2023.
+//  Created by AhmadSulaiman on 15/12/2023.
 //
 
 import UIKit
